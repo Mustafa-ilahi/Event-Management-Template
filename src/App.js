@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login';
+import SignUp from './components/Signup';
+import Router from './config/router';
 
 function App() {
   return (
     <div className="App">
-      <h1>Event Management</h1>
+      
+      <Router />
     </div>
   );
 }

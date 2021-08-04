@@ -31,16 +31,10 @@
     position: relative;
     left: 640px;
     bottom: 45px;
+    z-index: 2;
 }
 
-#event-heading{
-    color: #A87516;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    position: relative;
-    left: 175px;
-    font-size: 20px;
-}
+
 
 .first-letter-size{
     font-size: 37px;
@@ -64,4 +58,18 @@
 #give-text{
     color: white;
     font-weight: normal;
+}
+
+#slider{
+    position: relative;
+    bottom: 142px;
+    /* opacity: 0.4; */
+    /* z-index: 1; */
+}
+
+#event-info{
+    color: white;
+    z-index: 2;
+    position: relative;
+    bottom: 75px;
 }

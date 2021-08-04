@@ -1,7 +1,12 @@
+
+#main-div{
+    position: relative;
+    bottom: 0px;
+}
 #top-div{
     background-color: black;
-    height: 5%;
-    position: fixed;
+    height: 45px;
+    /* position: relative; */
     color: white;
     width: 100%;
     display: flex;
@@ -10,7 +15,7 @@
 
 .mail-contact-no{
     position: relative;
-    bottom: 10px;
+    top: 6px;
     left: 350px;
 }
 
@@ -18,11 +23,45 @@
 .top-icons{
     height: 20px;
     position: relative;
-    top: 5px;
+    top: 0px;
 }
 
 #header-icon{
     height: 90px;
     position: relative;
-    left: 400px;
+    left: 640px;
+    bottom: 45px;
+}
+
+#event-heading{
+    color: #A87516;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    position: relative;
+    left: 175px;
+    font-size: 20px;
+}
+
+.first-letter-size{
+    font-size: 37px;
+}
+
+.sign-btns{
+    position: relative;
+    left: 780px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px
+}
+
+#header{
+    position: relative;
+    bottom: 100px;
+}
+
+#give-text{
+    color: white;
+    font-weight: normal;
 }

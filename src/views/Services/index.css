@@ -120,3 +120,53 @@
     left: 105px;
     bottom: 5px;
 }
+
+#comment-section{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+
+#one{
+    background-color: #d5d5d5;
+    flex: 3 1;
+    height: 600px;
+    overflow-x: clip;
+}
+
+#two{
+    background-color: #ffffff;
+    flex: 1;
+}
+
+#customer-text{
+    text-align: justify;
+    position: relative;
+    left: 70px;
+}
+
+.customer-img{
+    height: 70px;
+    position: relative;
+    right: 335px;
+}
+
+.head-comment-section{
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    top: 8px;
+}
+
+#venue-icon{ 
+    position: relative;
+    bottom: 506px;
+    left: 200px;
+}
+
+#venue-text{ 
+    text-align: justify;
+    position: relative;
+    left: 400px;
+    bottom: 6px;
+}

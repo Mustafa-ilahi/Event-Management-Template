@@ -7,7 +7,8 @@ import search from '../../assets/search.PNG';
 import request from '../../assets/request.PNG';
 import book from '../../assets/book.PNG';
 import watchVideo from '../../assets/watch-video.PNG';
-
+import customer from '../../assets/customer.PNG';
+import venue from '../../assets/venue.PNG';
 
 export default function Services() {
     return(
@@ -56,6 +57,23 @@ export default function Services() {
                     </div>
                 </div>
                 <br/><br/><br/>
+            </div>
+            <div id="comment-section">
+                <div id="one">
+                <br/>
+                    <div id="customer-icon">
+                        <img src={customer} className="customer-img"/>
+                        <p id="customer-text"><span className="head-comment-section">For Customers</span><br /><br /> Search best banquet halls and party halls near you, <br /> review amenities, compare prices, check availability, <br /> and get multiple free quotes. Or simply tells us your <br /> needs by filling in the inquiry form and we will take <br /> care of the rest. <br /><br /> <b>Event Management</b> is constantly adding new venues <br/> with great amount of details in all top localities of <br /> major cities in India. Customers have the ability to <br /> search the venues based on their specific <br/> needs and the occasions. We are listing banquet halls, party halls <br /> and venues that have the amenities to celebrate <br /> social events like Marriages/Weddings, Receptions, <br /> Birthdays, Engagements, Get-Togethers, Naming Cer-<br /> ermonies and all kinds of Corportate Events.</p>
+                    </div>
+                    <div id="venue-icon">
+                        <img src={venue} className="all-img"/>
+                        <p id="venue-text"><span className="head-comment-section">For Venue Owners</span> <br /> <br /> Our single goal is to increase your occupancy. Bring <br /> your more customers from a wide variety of new<br /> channels. We will relentlessly promote your proper- <br />ties to expand your visibility across multiple new customers <br />to your banquet sales personnel round the clock is what <br/> we thrive to achieve. </p>
+                    </div>
+                </div>
+                <div id="two">
+                    <p>#e9c560
+</p>
+                </div>
             </div>
         </div>
     )

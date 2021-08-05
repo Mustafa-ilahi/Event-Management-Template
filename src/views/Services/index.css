@@ -170,3 +170,21 @@
     left: 400px;
     bottom: 6px;
 }
+
+#side-commments{
+    color: #e9c560;
+    font-size: 30px;
+}
+
+#neelam-img{
+    height: 90px;   
+}
+
+#name{
+    color: #e9c560;
+    font-size: 20px;
+}
+
+#neelam-comment{
+    text-align: center;
+}

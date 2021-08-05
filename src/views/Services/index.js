@@ -9,6 +9,9 @@ import book from '../../assets/book.PNG';
 import watchVideo from '../../assets/watch-video.PNG';
 import customer from '../../assets/customer.PNG';
 import venue from '../../assets/venue.PNG';
+import neelam from '../../assets/neelam.PNG';
+import commentIcon from '../../assets/comment-icoo.PNG';
+import Footer from '../Footer';
 
 export default function Services() {
     return(
@@ -71,10 +74,16 @@ export default function Services() {
                     </div>
                 </div>
                 <div id="two">
-                    <p>#e9c560
-</p>
+                    <br />
+                    <p id="side-commments">Love In Comments</p>
+                    <img src={neelam} className="neelam-img"/>
+                    <br /><br />
+                    <p id="name">Neelam Muneer</p>
+                    <p id="neelam-comment">We used Event Management to host a <br /> cocktail party for our wedding. We used <br /> them for finalizing the venue and the pho-<br />tographer. It was so easy to find and shot-<br />list a venie thanks to their service. Ankush <br /> and Aditya were very helpful and always available <br /> at any time of the day to help us <br /> with our queries and sort out any issues we <br /> faced. They also replied us get the best  deals.<br /> Strongly recommmended in case you <br />want to host any event.</p>
+                    <img src={commentIcon}/>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
